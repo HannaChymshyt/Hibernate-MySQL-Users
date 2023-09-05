@@ -3,6 +3,8 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+application/database/Credentials.java
+
 ### IntelliJ IDEA ###
 out/
 .idea/modules.xml

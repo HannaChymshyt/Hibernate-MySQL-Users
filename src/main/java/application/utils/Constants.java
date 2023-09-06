@@ -6,7 +6,7 @@ public final class Constants {
     public final static String DB_URL = "jdbc:mysql://localhost:3306/demo_db?";
     public final static String DB_USER = "dev";
 
-    public final static String AGE_RGX = "([1-9]|[1-9][0-9]|1[01][0-9]|12[0-5])";
+    public final static String AGE_RGX = "[1-9]|[1-9][0-9]|1[01][0-9]|12[0-5]";
     public final static String WRONG_AGE_MSG = "Wrong age input.";
 
     public final static String ID_RGX = "^[1-9]$";

@@ -8,7 +8,7 @@ public class UserUpdateView {
 
         Scanner scanner = new Scanner(System.in);
 
-        String title = "Enter contact's ID: ";
+        String title = "Enter user's ID: ";
         System.out.print(title);
         String id = scanner.nextLine().trim();
 

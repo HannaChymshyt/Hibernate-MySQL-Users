@@ -40,9 +40,6 @@ public class UserUpdateService {
         if (IdValidator.isIdValid(data[0]))
             errors.put("id", Constants.WRONG_ID_MSG);
 
-        if (AgeValidator.isAgeValid(data[1]))
-            errors.put("age", Constants.WRONG_AGE_MSG);
-
         return errors;
     }
 

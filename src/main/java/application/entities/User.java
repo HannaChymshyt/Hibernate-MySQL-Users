@@ -62,7 +62,7 @@ public class User {
         return age;
     }
 
-    public void setAge(String phone) {
+    public void setAge(String age) {
         this.age = age;
     }
 
